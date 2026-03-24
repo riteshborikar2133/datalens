@@ -1,0 +1,38 @@
+# ======================
+# Node modules (frontend)
+# ======================
+Frontend/node_modules/
+
+# ======================
+# Python virtual environment (backend)
+# ======================
+Backend/venv/
+
+# ======================
+# Logs
+# ======================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ======================
+# Build / distribution
+# ======================
+dist/
+dist-ssr/
+*.local
+
+# ======================
+# Editor files
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
