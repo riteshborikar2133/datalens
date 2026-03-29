@@ -44,7 +44,7 @@ export default function UploadCSV() {
             formData.append("file", file);
 
             const response = await axios.post(
-              "http://localhost:8000/api/analyze/",
+              `${import.meta.env.VITE_BACKEND_URL}/api/analyze`,
               formData,
               {
                 headers: {
